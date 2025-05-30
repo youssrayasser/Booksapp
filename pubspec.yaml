@@ -1,0 +1,48 @@
+name: books_library
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^2.0.0
+  firebase_auth: ^4.0.0
+  font_awesome_flutter: ^10.7.0
+  cupertino_icons: ^1.0.8
+  carousel_slider: ^5.0.0
+  provider: ^6.0.5
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/books.png
+    - assets/images/erayaa.png
+    - assets/images/gatsby.jpg
+    - assets/images/pride.jpg
+    - assets/images/hungergames.jpg
+    - assets/images/texasglory.jpg
+    - assets/images/harrypotter.jpg
+    - assets/images/tessa_dare.jpg
+    - assets/images/cora_riley.jpeg
+    - assets/images/jk_rowling.jpg
+    - assets/images/lisa_kleypas.jpg
+    - assets/images/john_green.jpg
+    - assets/images/stephen_chbosky.jpeg
+    - assets/images/romance_book.jpg
+    - assets/images/historical_book.jpg
+    - assets/images/scifi_book.jpeg
+    - assets/images/mystery_book.jpeg
